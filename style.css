@@ -1,4 +1,33 @@
 #Titulo {
 
-    color: blue;
+    color: white;
+}
+
+#logo {
+    border: white;
+    height: 500px;
+    width: 1500px;
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: orange;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color:white;
+}
+
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
 }
