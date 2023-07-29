@@ -1,12 +1,12 @@
 #Titulo {
-
+     
     color: white;
 }
 
 #logo {
     border: white;
     height: 500px;
-    width: 1500px;
+    width: 1499px;
 }
 
 p {
@@ -22,16 +22,13 @@ h1 {
 }
 
 h2 {
-    color:white;
+    color: white;
 }
 
 h3 {
     color: white;
 }
+
 h4 {
     color: white;
-}
-
-* {
-    font-size: 17px;
 }
