@@ -1,12 +1,13 @@
 #Titulo {
-     
+
     color: white;
 }
 
 #logo {
+
     border: white;
     height: 500px;
-    width: 1499px;
+    width: 1000px;
 }
 
 p {
@@ -30,5 +31,10 @@ h3 {
 }
 
 h4 {
+    color: white;
+}
+
+ form{
+
     color: white;
 }
