@@ -17,15 +17,17 @@
     <h1 id="Titulo"">Bienvenido a Bocadito</h1>
     <h4>Productos pensados en la salud de sus consumidores Modificados en Azúcar y Grasa 🍞🥧</h4>
     <hr>
-    <header>
-        <p>Ir a</p>
-        <a href=" #Registro">Registro</a> <br>
-        <a href="#Descripcion">Descripcion de la pagina</a> <br>
-        <a href="#Menu">Menu disponible</a> <br>
-        <a href="#pedido">Pedidos</a> <br>
-        <a href="#opinion">Reseña</a> <br>
-        <a href="#contact">Contactanos</a> <br>
-        </header>
+    <div class=" partes">
+        <h1>Navegacin</h1>
+        <ul>
+            <li><a href=" #Registro">Registro</a></li>
+            <li><a href="#Descripcion">Descripcion de la pagina</a></li>
+            <li><a href="#Menu">Menu disponible</a></li>
+            <li><a href="#pedido">Pedidos</a></li>
+            <li><a href="#opinion">Reseña</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+        </ul>
+        </div>
         <hr>
         <h2 id="Registro">Registro</h2>
         <div class="Registro">
@@ -52,17 +54,21 @@
                 <input id="numero" placeholder="Ingrese su numero movil"> <br> <br>
                 <label for="password">Contraseña</label>
                 <input type="password" id="Password" placeholder="Ingrese su contraseñas"> <br> <br>
-                <button type="button">Registrarse</button>
+                <button id="Registre" type="button">Registrarse</button>
             </form>
         </div>
         <hr>
         <h1 id="Descripcion">Descripcion</h1>
         <p>Un negocio de emprendimiento entre hermanas con un gusto peculiar por la comida</p>
-        
+
         <hr>
-        <h1 id="Menu">Menu</h1>
-        <img src="pictures/menu.jpg" width="300" height="550">
+        <div class="menu">
+            <h1>Menu</h1>
+            <img src="pictures/menu.jpg" width="300" height="550">
+
+        </div>
         <hr>
+
         <h3 id="pedido">Haz tu pedido</h3>
         <form>
             <label for="cantidad">Cantidad de pedidos</label>
