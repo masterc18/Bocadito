@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bocadito</title>
     <link id="icono" rel="icon" href="pictures/logo.ico">
     <link rel="stylesheet" href="style.css" />
@@ -18,7 +18,7 @@
     <h4>Productos pensados en la salud de sus consumidores Modificados en Azúcar y Grasa 🍞🥧</h4>
     <hr>
     <div class=" partes">
-        <h1>Navegacion</h1>
+        <h1 id="Navegacion">Navegacion</h1>
         <ul>
             <li><a href=" #Registro">Registro</a></li>
             <li><a href="#Descripcion">Descripcion de la pagina</a></li>
@@ -29,7 +29,7 @@
         </ul>
         </div>
         <hr>
-        <h2 id="Registro">Registro</h2>
+        <h2 id="Registro">Registro 📖</h2>
         <div class="Registro">
             <form>
                 <label for="nombre">Nombre</label>
@@ -46,44 +46,46 @@
                     <option value="Leon">Leon</option>
                     <option value="Chinandega">Chinandega</option>
                 </select>
+                <br>
 
                 <label for="Direccion">Direccion</label>
                 <input id="Direccion" placeholder="Ingrese su direccion" /> <br> <br>
 
                 <label for="numero">Numero de Telefono</label>
-                <input type="tel" id="tel" placeholder="Ingrese su numero movil"> <br> <br>
+                <input type="tel" id="telefono" placeholder="Ingrese su numero movil"> <br> <br>
 
                 <button id="Registre" type="button">Registrarse</button>
+                <button type="reset">Restablecer</button>
             </form>
         </div>
         <hr>
-        <h1 id="Descripcion">Descripcion</h1>
+        <h1 id="Descripcion">Descripcion </h1>
         <p>Un negocio de emprendimiento entre hermanas con un gusto peculiar por la comida</p>
 
         <hr>
         <div id="menu">
-            <h1>Menu</h1>
+            <h1>Menu 📕</h1>
             <img src="pictures/menu.jpg" width="300" height="550">
         </div>
 
 
         <hr>
 
-        <h3 id="pedido">Haz tu pedido</h3>
+        <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
         <form>
             <label for="cantidad">Cantidad de pedidos</label>
-            <input type="number" id="cantidad" placeholder="Cuantos pedidos quiere?"> <br> <br>
+            <input type="number" id="cantidad" min="0" max="5"> <br> <br>
 
-            <label for="pago">Metodo de pago</label>
+            <label for="pago">Metodo de pago 💰</label>
             <select name="pago" id="pago">
-                <option value=""></option>
-                <option value="Tarjeta">Tarjeta</option>
-                <option value="Efectivo">Efectivo</option>
+                <option value="none"></option>
+                <option value="Tarjeta">Tarjeta 💳</option>
+                <option value="Efectivo">Efectivo 💵</option>
             </select> <br> <br>
             <button type="button">Agregar</button>
         </form>
         <hr>
-        <h3 id="opinion">Danos tu opinion</h3>
+        <h3 id="opinion">Danos tu opinion ✍🏻</h3>
         <form>
             <label for="comentario">Comentario</label> <br>
             <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario"
@@ -94,9 +96,10 @@
         <hr>
 
         <footer>
-            <h3 id="contact">Contactenos</h3>
+            <h3 id="contact">Contactenos 📞</h3>
             <a target="_blank"
                 href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ==">dame_un_bocadito</a>
+
             <br>
             <p>
                 Copyright 2023
