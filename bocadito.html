@@ -10,101 +10,96 @@
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="pictures/imagen de logo.jpg" width="600" height="600">
-    </header>
+    <div class="Responsive">
+        <header>
+            <img id="logo" src="pictures/imagen de logo.jpg">
+            <h1>Bienvenido a Bocadito</h1>
+            <nav>
+                <a href="#Descripcion">Descripcion</a>
+                <a href="#Registro">Registro</a>
+                <a href="#menu">Menu disponible</a>
+                <a href="#pedido">Pedidos</a>
+                <a href="#opinion">Reseña</a>
+                <a href="#contact">Contactanos</a>
+            </nav>
+        </header>
+    </div>
     <hr>
-    <h1 id="Titulo"">Bienvenido a Bocadito</h1>
-    <h4>Productos pensados en la salud de sus consumidores Modificados en Azúcar y Grasa 🍞🥧</h4>
+    <h2 id="Descripcion">Descripcion </h2>
+    <p>Un negocio familiar donde cuidamos de su alimentacion y su salud con nuestros deliciosas recetas de pan y postres
+    </p>
+    <p>Productos pensados en la salud de sus consumidores Modificados en Azúcar y Grasa 🍞🥧</p><br>
     <hr>
-    <div class=" partes">
-        <h1 id="Navegacion">Navegacion</h1>
-        <ul>
-            <li><a href=" #Registro">Registro</a></li>
-            <li><a href="#Descripcion">Descripcion de la pagina</a></li>
-            <li><a href="#menu">Menu disponible</a></li>
-            <li><a href="#pedido">Pedidos</a></li>
-            <li><a href="#opinion">Reseña</a></li>
-            <li><a href="#contact">Contactanos</a></li>
-        </ul>
-        </div>
-        <hr>
-        <h2 id="Registro">Registro 📖</h2>
-        <div class="Registro">
-            <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder="Ingrese su nombre" /> <br> <br>
-
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" placeholder="Ingrese su apellido"> <br> <br>
-
-                <label for="Departamentos">Departamentos</label>
-                <select>
-                    <option value="">Seleccione el departamento</option>
-                    <option value="Granada">Granada</option>
-                    <option value="Managua">Managua</option>
-                    <option value="Leon">Leon</option>
-                    <option value="Chinandega">Chinandega</option>
-                </select>
-                <br>
-
-                <label for="Direccion">Direccion</label>
-                <input id="Direccion" placeholder="Ingrese su direccion" /> <br> <br>
-
-                <label for="numero">Numero de Telefono</label>
-                <input type="tel" id="telefono" placeholder="Ingrese su numero movil"> <br> <br>
-
-                <button id="Registre" type="button">Registrarse</button>
-                <button type="reset">Restablecer</button>
-            </form>
-        </div>
-        <hr>
-        <h1 id="Descripcion">Descripcion </h1>
-        <p>Un negocio de emprendimiento entre hermanas con un gusto peculiar por la comida</p>
-
-        <hr>
-        <div id="menu">
-            <h1>Menu 📕</h1>
-            <img src="pictures/menu.jpg" width="300" height="550">
-        </div>
-
-
-        <hr>
-
-        <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
+    <h2 id=" Registro">Registro 📖</h2>
+    <div class="Registro">
         <form>
-            <label for="cantidad">Cantidad de pedidos</label>
-            <input type="number" id="cantidad" min="0" max="5"> <br> <br>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" /> <br> <br>
 
-            <label for="pago">Metodo de pago 💰</label>
-            <select name="pago" id="pago">
-                <option value="none"></option>
-                <option value="Tarjeta">Tarjeta 💳</option>
-                <option value="Efectivo">Efectivo 💵</option>
-            </select> <br> <br>
-            <button type="button">Agregar</button>
-        </form>
-        <hr>
-        <h3 id="opinion">Danos tu opinion ✍🏻</h3>
-        <form>
-            <label for="comentario">Comentario</label> <br>
-            <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario"
-                name="comentario"></textarea>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido"> <br> <br>
+
+            <label for="Departamentos">Departamentos</label>
+            <select>
+                <option value="">Seleccione el departamento</option>
+                <option value="Granada">Granada</option>
+                <option value="Managua">Managua</option>
+                <option value="Leon">Leon</option>
+                <option value="Chinandega">Chinandega</option>
+            </select>
             <br>
-            <button type="button">Enviar</button>
+
+            <label for="Direccion">Direccion</label>
+            <input id="Direccion" placeholder="Ingrese su direccion" /> <br> <br>
+
+            <label for="numero">Numero de Telefono</label>
+            <input type="tel" id="telefono" placeholder="Ingrese su numero movil"> <br> <br>
+
+            <button id="Registre" type="button">Registrarse</button>
+            <button type="reset">Restablecer</button>
         </form>
-        <hr>
+    </div>
+    <hr>
+    <div id="menu">
+        <h2>Menu 📕</h2>
+        <img src="pictures/menu.jpg" width="300" height="550">
+    </div>
 
-        <footer>
-            <h3 id="contact">Contactenos 📞</h3>
-            <a target="_blank"
-                href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ==">dame_un_bocadito</a>
 
-            <br>
-            <p>
-                Copyright 2023
-            </p>
-        </footer>
+    <hr>
+
+    <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
+    <form>
+        <label for="cantidad">Cantidad de pedidos</label>
+        <input type="number" id="cantidad" min="0" max="5"> <br> <br>
+
+        <label for="pago">Metodo de pago 💰</label>
+        <select name="pago" id="pago">
+            <option value="none"></option>
+            <option value="Tarjeta">Tarjeta 💳</option>
+            <option value="Efectivo">Efectivo 💵</option>
+        </select> <br> <br>
+        <button type="button">Agregar</button>
+    </form>
+    <hr>
+    <h3 id="opinion">Danos tu opinion ✍🏻</h3>
+    <form>
+        <label for="comentario">Comentario</label> <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Enviar</button>
+    </form>
+    <hr>
+
+    <footer>
+        <h3 id="contact">Contactenos 📞</h3>
+        <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ==">dame_un_bocadito</a>
+
+        <br>
+        <p>
+            Copyright 2023
+        </p>
+    </footer>
 
 </body>
 

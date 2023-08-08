@@ -3,11 +3,40 @@
     color: white;
 }
 
+header {
+    background-color: white;
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+@media (max-width:703px) {
+    header {
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px;
+    }
+}
+
+
+
 #logo {
 
-    border: white;
-    height: 500px;
-    width: 400px;
+    display: flex;
+    height: 100px;
+
 }
 
 p {
@@ -18,8 +47,9 @@ body {
     background-color: orange;
 }
 
+
 h1 {
-    color: white;
+    color: orange;
 }
 
 h2 {
@@ -38,6 +68,3 @@ form {
 
     color: white;
 }
-
-
-
