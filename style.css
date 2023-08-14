@@ -9,8 +9,6 @@ p {
 }
 
 
-
-
 h1 {
     color: orange;
 }
@@ -105,7 +103,7 @@ button[type="reset"] {
 }
 
 button:hover {
-    background-color: #005ea8;
+    background-color: blue;
 }
 
 input:focus,
@@ -125,6 +123,7 @@ select:focus {
     margin: 20px;
 }
 
+
 h2 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -136,12 +135,42 @@ img {
     max-width: 100%;
 }
 
+.fa-instagram{
+    width: 50px;
+}
+
 .fa-instagram:hover {
-    color: white;
-    font-size: 30px;
+    width: 40px;
+    color: purple;
+    font-size: 40px;
+}
+
+.fa-whatsapp:hover{
+    color:green;
+    font-size: 40px;
 }
 
 
 body {
     background-color: orange;
+}
+
+.Galery{
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+
+.Galery picture{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+
+.Galery picture:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
 }

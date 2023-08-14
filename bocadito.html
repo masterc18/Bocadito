@@ -24,7 +24,7 @@
             <nav>
                 <a href="#Descripcion">Descripcion</a>
                 <a href="#Registro">Registro</a>
-                <a href="#menu">Menu disponible</a>
+                <a href="#menu">Menu</a>
                 <a href="#pedido">Pedidos</a>
                 <a href="#opinion">Reseña</a>
                 <a href="#contact">Contactanos</a>
@@ -69,74 +69,65 @@
         </form>
     </div>
     <hr>
-    <div id="menu">
+    <h1>Productos destacados</h1>
+    < id="menu">
         <h2>Menu 📕</h2>
         <img src="pictures/menu.jpg" width="300" height="550">
         <hr>
-    </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <h1>Productos Destacados</h1>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="pictures/banando.jpg" class="d-block w-70" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="pictures/Banano ch.jpg" class="d-block w-70" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="pictures/Galleta.jpg" class="d-block w-70" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="pictures/canela.jpg" class="d-block w-70" alt="">
-            </div>
+
+        <div class="Galery">
+            <h1>Productos destacados</h1>
+            <img src="pictures/bananso.jpg" alt="">
+            <img src="pictures/Galleta.jpg" alt="">
+            <img src="pictures/canela.jpg" alt="">
+            <img src="pictures/Banano ch.jpg" alt="">
+            <img src="pictures/pita.jpg" alt="">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <hr>
 
-    <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
-    <form>
-        <label for="cantidad">Cantidad de pedidos</label>
-        <input type="number" id="cantidad" min="0" max="5"> <br> <br>
+        <hr>
 
-        <label for="pago">Metodo de pago 💰</label>
-        <select name="pago" id="pago">
-            <option value="none"></option>
-            <option value="Tarjeta">Tarjeta 💳</option>
-            <option value="Efectivo">Efectivo 💵</option>
-        </select> <br> <br>
-        <button type="button">Agregar</button>
-    </form>
-    <hr>
-    <h3 id="opinion">Danos tu opinion ✍🏻</h3>
-    <form>
-        <label for="comentario">Comentario</label> <br>
-        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario" name="comentario"></textarea>
-        <br>
-        <button type="button">Enviar</button>
-    </form>
-    <hr>
+        <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
+        <form>
+            <label for="cantidad">Cantidad de pedidos</label>
+            <input type="number" id="cantidad" min="0" max="5"> <br> <br>
 
-    <footer>
-        <h3 id="contact">Contactenos 📞</h3>
-        <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ=="><i
-                class="fa-brands fa-instagram"></i></a>
+            <label for="pago">Metodo de pago 💰</label>
+            <select name="pago" id="pago">
+                <option value="none">Seleccione su metodo de pago</option>
+                <option value="Tarjeta">Tarjeta 💳</option>
+                <option value="Efectivo">Efectivo 💵</option>
+            </select> <br> <br>
+            <button type="button">Agregar</button>
+        </form>
+        <hr>
+        <h3 id="opinion">Danos tu opinion ✍🏻</h3>
+        <form>
+            <label for="comentario">Comentario</label> <br>
+            <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario"
+                name="comentario"></textarea>
+            <br>
+            <button type="button">Enviar</button>
+        </form>
+        <hr>
 
-        <br>
-        <h3>
-            Copyright 2023
-        </h3>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+        <footer>
+
+            <h3 id="contact">Contactenos 📞</h3>
+            <div class="icons">
+                <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+
+            <br>
+            <h3>
+                Copyright 2023
+            </h3>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
