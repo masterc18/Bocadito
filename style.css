@@ -155,13 +155,13 @@ body {
     background-color: orange;
 }
 
-.Galery{
+.galery{
     display: flex;
     width: 500px;
     height: 300px;
 }
 
-.Galery picture{
+.galery img{
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
@@ -169,8 +169,13 @@ body {
     transition: .7s ease;
 }
 
-.Galery picture:hover{
+.galery img:hover{
     width: 500px;
     opacity: 1;
     filter: brightness(130%);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
 }
