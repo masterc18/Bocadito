@@ -22,12 +22,12 @@
                 <h1>Bienvenido a Bocadito</h1>
             </marquee>
             <nav>
-                <a href="#Descripcion">Descripcion</a>
-                <a href="#Registro">Registro</a>
-                <a href="#menu">Menu</a>
-                <a href="#pedido">Pedidos</a>
-                <a href="#opinion">Reseña</a>
-                <a href="#contact">Contactanos</a>
+                <a href="#Descripcion"><i class="fa-solid fa-address-card"></i></a>
+                <a href="#Registro"><i class="fa-sharp fa-solid fa-registered fa-bounce"></i></a>
+                <a href="#menu"><i class="fa-solid fa-book"></i></a>
+                <a href="#pedido"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#opinion"><i class="fa-regular fa-comment"></i></a>
+                <a href="#contact"><i class="fa-sharp fa-regular fa-id-badge"></i></a>
             </nav>
         </header>
     </div>
@@ -70,65 +70,63 @@
     </div>
     <hr>
     <h1>Productos destacados</h1>
-    < id="menu">
-        <h2>Menu 📕</h2>
+    <div class="contenedor">
+        <h2 id="menu">Menu 📕</h2>
         <img src="pictures/menu.jpg" width="300" height="550">
-        <hr>
-        <h1>Productos destacado</h1>
-        <div class="contenedor">
-            <div class="galery">
-                <img src="pictures/bananso.jpg" alt="">
-                <img src="pictures/Galleta.jpg" alt="">
-                <img src="pictures/canela.jpg" alt="">
-                <img src="pictures/Banano ch.jpg" alt="">
-                <img src="pictures/pita.jpg" alt="">
-            </div>
+    </div>
+    <h1>Productos destacado</h1>
+    <hr>
+    <div class="contenedor">
+        <div class="galery">
+            <img src="pictures/bananso.jpg" alt="">
+            <img src="pictures/Galleta.jpg" alt="">
+            <img src="pictures/canela.jpg" alt="">
+            <img src="pictures/Banano ch.jpg" alt="">
+            <img src="pictures/pita.jpg" alt="">
         </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
-        <form>
-            <label for="cantidad">Cantidad de pedidos</label>
-            <input type="number" id="cantidad" min="0" max="5"> <br> <br>
+    <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
+    <form>
+        <label for="cantidad">Cantidad de pedidos</label>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad" min="0" max="5"> <br> <br>
 
-            <label for="pago">Metodo de pago 💰</label>
-            <select name="pago" id="pago">
-                <option value="none">Seleccione su metodo de pago</option>
-                <option value="Tarjeta">Tarjeta 💳</option>
-                <option value="Efectivo">Efectivo 💵</option>
-            </select> <br> <br>
-            <button type="button">Agregar</button>
-        </form>
-        <hr>
-        <h3 id="opinion">Danos tu opinion ✍🏻</h3>
-        <form>
-            <label for="comentario">Comentario</label> <br>
-            <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario"
-                name="comentario"></textarea>
-            <br>
-            <button type="button">Enviar</button>
-        </form>
-        <hr>
+        <label for="pago">Metodo de pago 💰</label>
+        <select name="pago" id="pago">
+            <option value="none">Seleccione su metodo de pago</option>
+            <option value="Tarjeta">Tarjeta 💳</option>
+            <option value="Efectivo">Efectivo 💵</option>
+        </select> <br> <br>
+        <button type="button">Agregar</button>
+    </form>
+    <hr>
+    <h3 id="opinion">Danos tu opinion ✍🏻</h3>
+    <form>
+        <label for="comentario">Comentario</label> <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Enviar</button>
+    </form>
+    <hr>
 
-        <footer>
+    <footer>
 
-            <h3 id="contact">Contactenos 📞</h3>
-            <div class="icons">
-                <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ=="><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-
-
-            <br>
-            <h3>
-                Copyright 2023
-            </h3>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
+        <h3 id="contact">Contactenos 📞</h3>
+        <div class="icons">
+            <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ=="><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <br>
+        <h3>
+            Copyright 2023
+        </h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

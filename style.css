@@ -119,6 +119,7 @@ select:focus {
 }
 
 #menu {
+   font-size: 45px;
     text-align: center;
     margin: 20px;
 }
@@ -136,8 +137,19 @@ img {
 }
 
 .fa-instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    
+}
+
+.fa-whatsapp{
+    display: grid;
+    place-content: center;
     width: 50px;
 }
+
 
 .fa-instagram:hover {
     width: 40px;
@@ -146,9 +158,13 @@ img {
 }
 
 .fa-whatsapp:hover{
+    width: 40px;
     color:green;
     font-size: 40px;
+   
 }
+
+
 
 
 body {
