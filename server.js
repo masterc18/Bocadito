@@ -6,4 +6,4 @@ const indexHTML = fs.readFileSync('./bocadito.html')
 app.get('/', (req, res)=> res.send(indexHTML))
 const PORT = 3000
 app.listen(PORT)
-console.log('lisntening in port', PORT)
+console.log('listening in port', PORT)
