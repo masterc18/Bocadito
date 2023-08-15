@@ -50,7 +50,7 @@ nav {
 }
 
 nav a {
-    color: #333;
+    color: orange;
     text-decoration: none;
     margin-left: 10px;
     font-size: 16px;
@@ -58,7 +58,7 @@ nav a {
 
 nav a:hover {
     color: orange;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 form {
@@ -119,7 +119,7 @@ select:focus {
 }
 
 #menu {
-   font-size: 45px;
+    font-size: 45px;
     text-align: center;
     margin: 20px;
 }
@@ -136,48 +136,57 @@ img {
     max-width: 100%;
 }
 
-.fa-instagram{
+.icons {
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    z-index: 9999;
+}
+
+.icons a {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.icons a:hover {
+    font-size: 40px;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     
 }
 
-.fa-whatsapp{
-    display: grid;
-    place-content: center;
-    width: 50px;
+.fa-square-instagram {
+    background-color: #e4405f;
 }
 
+.fa-square-whatsapp {
+    color: #14e136;
+    background-color: white;
 
-.fa-instagram:hover {
-    width: 40px;
-    color: purple;
-    font-size: 40px;
+
 }
-
-.fa-whatsapp:hover{
-    width: 40px;
-    color:green;
-    font-size: 40px;
-   
-}
-
-
-
 
 body {
     background-color: orange;
 }
 
-.galery{
+.galery {
     display: flex;
     width: 500px;
     height: 300px;
 }
 
-.galery img{
+.galery img {
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
@@ -185,7 +194,7 @@ body {
     transition: .7s ease;
 }
 
-.galery img:hover{
+.galery img:hover {
     width: 500px;
     opacity: 1;
     filter: brightness(130%);
