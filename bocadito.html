@@ -47,7 +47,7 @@
             <input type="text" id="apellido" placeholder="Ingrese su apellido"> <br> <br>
 
             <label for="Departamentos">Departamentos</label>
-            <select>
+            <select id="select-departamentos">
                 <option value="">Seleccione el departamento</option>
                 <option value="Granada">Granada</option>
                 <option value="Managua">Managua</option>
@@ -128,5 +128,7 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 </body>
-
+<!--la script tag con atributo src importa el codigo que se usará en un archivo JS, lo mas recomendable es que se coloque
+despues del body para que no haya problemas con las funcionalidades de la pagina -->
+<script src="./server.js"></script>
 </html>
