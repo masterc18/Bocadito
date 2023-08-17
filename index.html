@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocadito</title>
+    <link id="icono" rel="icon" href="pictures/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="responsive">
+        <header>
+            <img id="logo" src="pictures/imagen de logo.jpg">
+            <marquee>
+                <h1>Bienvenido a Bocadito</h1>
+            </marquee>
+            <nav>
+                <a href="#Descripcion"><i class="fa-solid fa-address-card"></i></a>
+                <a href="#Registro"><i class="fa-sharp fa-solid fa-registered fa-bounce"></i></a>
+                <a href="#menu"><i class="fa-solid fa-book"></i></a>
+                <a href="#pedido"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#opinion"><i class="fa-regular fa-comment"></i></a>
+                <a href="#contact"><i class="fa-sharp fa-regular fa-id-badge"></i></a>
+            </nav>
+        </header>
+    </div>
+    <hr>
+    <h2 id="Descripcion">Descripcion </h2>
+    <p>Un negocio familiar donde cuidamos de su alimentacion y su salud con nuestros deliciosas recetas de pan y postres
+    </p>
+    <p>Productos pensados en la salud de sus consumidores Modificados en Azúcar y Grasa 🍞🥧</p><br>
+    <hr>
+    <h2 id=" Registro">Registro 📖</h2>
+    <div class="Registro">
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" /> <br> <br>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido"> <br> <br>
+
+            <label for="Departamentos">Departamentos</label>
+            <select id="select-departamentos">
+                <option value="">Seleccione el departamento</option>
+                <option value="Granada">Granada</option>
+                <option value="Managua">Managua</option>
+                <option value="Leon">Leon</option>
+                <option value="Chinandega">Chinandega</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Direccion">Direccion</label>
+            <input id="Direccion" placeholder="Ingrese su direccion" /> <br> <br>
+
+            <label for="numero">Numero de Telefono</label>
+            <input type="tel" id="telefono" placeholder="Ingrese su numero movil"> <br> <br>
+            <div class="row">
+                <button type="summit" class="btn btn-outline-primary col-sm-12 col-lg-4">Registrarse</button>
+                <button type="reset" class="btn btn-outline-success col-sm-12 col-lg-4">Restablecer</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <h1>Productos destacados</h1>
+    <div class="contenedor">
+        <h2 id="menu">Menu 📕</h2>
+        <img src="pictures/menu.jpg" width="300" height="550">
+    </div>
+    <h1>Productos destacado</h1>
+    <hr>
+    <div class="contenedor">
+        <div class="galery">
+            <img src="pictures/banando.jpg" alt="">
+            <img src="pictures/Galleta.jpg" alt="">
+            <img src="pictures/canela.jpg" alt="">
+            <img src="pictures/Banano ch.jpg" alt="">
+            <img src="pictures/pita.jpg" alt="">
+        </div>
+    </div>
+
+    <hr>
+
+    <h3 id="pedido">Haz tu pedido 🍞🥧</h3>
+    <form>
+        <label for="cantidad">Cantidad de pedidos</label>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad" min="0" max="5"> <br> <br>
+
+        <label for="pago">Metodo de pago 💰</label>
+        <select name="pago" id="pago">
+            <option value="none">Seleccione su metodo de pago</option>
+            <option value="Tarjeta">Tarjeta 💳</option>
+            <option value="Efectivo">Efectivo 💵</option>
+        </select> <br> <br>
+        <button type="button">Agregar</button>
+    </form>
+    <hr>
+    <h3 id="opinion">Danos tu opinion ✍🏻</h3>
+    <form>
+        <label for="comentario">Comentario</label> <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Enviar</button>
+    </form>
+    <hr>
+
+    <footer>
+
+        <h3 id="contact">Contactenos 📞</h3>
+        <div class="icons">
+            <a target="_blank" href="https://instagram.com/dame_un_bocadito?igshid=MmU2YjMzNjRlOQ=="><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+        <br>
+        <h3>
+            <i class="fa-regular fa-copyright"></i> 2023 CarlosTalavera
+        </h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+<!--la script tag con atributo src importa el codigo que se usará en un archivo JS, lo mas recomendable es que se coloque
+despues del body para que no haya problemas con las funcionalidades de la pagina -->
+<script src="./server.js"></script>
+
+</html>
