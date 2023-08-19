@@ -22,12 +22,12 @@
                 <h1>Bienvenido a Bocadito</h1>
             </marquee>
             <nav>
-                <a href="#Descripcion"><i class="fa-solid fa-address-card"></i></a>
-                <a href="#Registro"><i class="fa-sharp fa-solid fa-registered fa-bounce"></i></a>
-                <a href="#menu"><i class="fa-solid fa-book"></i></a>
-                <a href="#pedido"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href="#opinion"><i class="fa-regular fa-comment"></i></a>
-                <a href="#contact"><i class="fa-sharp fa-regular fa-id-badge"></i></a>
+                <a href="#Descripcion" title="inicio"><i class="fa-solid fa-address-card"></i></a>
+                <a href="#Registro" title="Registro"><i class="fa-sharp fa-solid fa-registered fa-bounce"></i></a>
+                <a href="#menu" title="menu"><i class="fa-solid fa-book"></i></a>
+                <a href="#pedido" title="pedidos"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#opinion" title="opinion"><i class="fa-regular fa-comment"></i></a>
+                <a href="#contact" title="contacto"><i class="fa-sharp fa-regular fa-id-badge"></i></a>
             </nav>
         </header>
     </div>
@@ -41,13 +41,13 @@
     <div class="Registro">
         <form>
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Ingrese su nombre" /> <br> <br>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required/> <br> <br>
 
             <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" placeholder="Ingrese su apellido"> <br> <br>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido" required> <br> <br>
 
             <label for="Departamentos">Departamentos</label>
-            <select id="select-departamentos">
+            <select id="select-departamentos" required>
                 <option value="">Seleccione el departamento</option>
                 <option value="Granada">Granada</option>
                 <option value="Managua">Managua</option>
@@ -58,10 +58,10 @@
             <br>
 
             <label for="Direccion">Direccion</label>
-            <input id="Direccion" placeholder="Ingrese su direccion" /> <br> <br>
+            <input id="Direccion" placeholder="Ingrese su direccion " required /> <br> <br>
 
             <label for="numero">Numero de Telefono</label>
-            <input type="tel" id="telefono" placeholder="Ingrese su numero movil"> <br> <br>
+            <input type="tel" id="telefono" placeholder="Ingrese su numero movil" required> <br> <br>
             <div class="row">
                 <button type="summit" class="btn btn-outline-primary col-sm-12 col-lg-4">Registrarse</button>
                 <button type="reset" class="btn btn-outline-success col-sm-12 col-lg-4">Restablecer</button>
@@ -107,7 +107,7 @@
         <label for="comentario">Comentario</label> <br>
         <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese su comentario" name="comentario"></textarea>
         <br>
-        <button type="button">Enviar</button>
+        <button type="summit">Enviar</button>
     </form>
     <hr>
 
