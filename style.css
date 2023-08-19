@@ -24,8 +24,10 @@ h3 {
 h4 {
     color: white;
 }
+
 /*Menu responsive*/
 header {
+    position: static;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +60,8 @@ nav a {
 
 nav a:hover {
     color: orange;
-    font-size: 20px;
+    font-size: 25px;
+
 }
 
 form {
@@ -96,10 +99,11 @@ button {
     cursor: pointer;
 }
 
-button [type="summit"]{
+button [type="summit"] {
     background-color: blue;
     color: black;
-    margin: center 10px;;
+    margin: center 10px;
+    ;
 }
 
 button[type="reset"] {
@@ -124,9 +128,11 @@ select:focus {
     }
 }
 
+
+
 #menu {
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     margin: 20px;
 }
 
@@ -136,20 +142,42 @@ h2 {
     margin-bottom: 10px;
 }
 
+@keyframes show {
+    form {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
 img {
+    /*scroll-timeline-name: --reveling-image;
+
+    animation-name: show;
+    animation-fill-mode: both;
+    animation-timeline: --reveling-image;
+
+    animation-range: entry 25% cover 50%*/
+
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 100%;
 }
 
+
 .icons {
+    border-radius: 20px;
     position: relative;
     top: 50%;
     transform: translateY(-20%);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 9997;
 }
 
 .icons a {
@@ -167,29 +195,31 @@ img {
 .icons a:hover {
     font-size: 70px;
     transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 
 }
 
 .fa-square-instagram {
+    color: violet;
     background-color: #e4405f;
 }
 
 .fa-square-whatsapp {
     color: #14e136;
-    background-color: white;
+    background-color: black;
 
 
 }
 
 body {
+
     background-color: orange;
 }
 
 .galery {
     display: flex;
-    width: 500px;
-    height: 300px;
+    width: 550px;
+    height: 350px;
 }
 
 .galery img {
@@ -201,12 +231,13 @@ body {
 }
 
 .galery img:hover {
-    width: 500px;
+    width: 499px;
     opacity: 1;
     filter: brightness(130%);
 }
 
 .contenedor {
+    
     display: flex;
     justify-content: center;
 }
