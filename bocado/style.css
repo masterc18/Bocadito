@@ -35,7 +35,7 @@ header {
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+
 }
 
 header h1{
@@ -55,7 +55,9 @@ h1 {
 nav {
     display: flex;
     justify-content: flex-end;
+   /*width: 100px;*/
 }
+
 
 nav a {
     color: orange;
@@ -243,6 +245,5 @@ body {
     display: flex;
     justify-content: center;
 }
-
 
 
