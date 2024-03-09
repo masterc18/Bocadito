@@ -9,6 +9,7 @@
 #index
 []Hacer el menu
 []Hacer el layout de la pagina
+[]Hacer una seccion o pagina aparte solo de menus
 []Hacer seccion de lo mas vendido
 []Hacer seccion de favoritos
 []Hacer el footer
