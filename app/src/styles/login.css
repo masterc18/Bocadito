@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(100%);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+h1 {
+  color: orange;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  display: grid;
+  position: relative;
+  color: #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  bottom: 10px;
+  left: 12.5rem;
+}
+
+.form {
+  height: 100dvh;
+  width: 100%;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.formContent {
+  display: grid;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+#Bread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  margin-top: 15px;
+  transform: translateY(-20px);
+}
+
+#Bread:hover {
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+.show {
+  display: block;
+}
+
+.card {
+  width: 100px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.globo {
+  border-radius: 25px;
+  padding: 12px;
+  background: orange;
+  color: white;
+  padding: 10px;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  z-index: 1;
+}
+.globo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  background: transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom: 35px solid orange;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.imagen {
+  width: 141px;
+  border-radius: 50%;
+  border: 8px double #f5e8e8;
+  width: 100px;
+}
+
+.PersonalDatas {
+  position: relative;
+  height: 37px;
+  width: 18rem;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(224, 218, 218);
+  margin: 5px;
+}
+
+.email {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#show {
+  position: relative;
+  height: 20px;
+  bottom: 35px;
+  width: 15px;
+  left: 19rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+.login {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 3rem;
+  height: 30px;
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffff;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: orange;
+}
+
+.login:hover {
+  background-color: rgb(251, 142, 0);
+  transition: 0.3s;
+}
+
+.choose {
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.choose span {
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  height: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.choose span::before {
+  border-bottom: 1px solid #c2c8d0;
+  content: "";
+  flex: 1 0 auto;
+  height: 50%;
+  margin-right: 5px;
+}
+
+.choose span::after {
+  border-bottom: 1px solid #c2c8d0;
+  content: "";
+  flex: 1 0 auto;
+  height: 50%;
+  margin-left: 5px;
+}
+
+.LButtons {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  height: 10px;
+  margin-bottom: 5px;
+}
+.LButtons button {
+  position: relative;
+  border-radius: 10px;
+  border-color: transparent;
+  margin: 10px;
+  height: 40px;
+  width: 17rem;
+}
+
+.googleIcon {
+  position: relative;
+  text-align: left;
+  top: 5px;
+  height: 20px;
+}
+
+.googleBtn {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: darkgray;
+}
+
+.googleBtn:hover {
+  background-color: blue;
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.appleBtn {
+  position: relative;
+  color: #fff;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.appleBtn i {
+  position: relative;
+  text-align: left;
+  margin: 13px;
+  font-size: 18px;
+}
