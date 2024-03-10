@@ -222,7 +222,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 16.5px;
+    width: 18px;
     top: 30px;
     right: 10rem;
   }
@@ -243,5 +243,28 @@ form {
 
   .choose span {
     font-size: 21px;
+  }
+
+  .LButtons button {
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
+    margin: 10px;
+    height: 60px;
+    width: 21rem;
+    bottom: 10px;
+    font-size: 20px;
+  }
+  #googleLogo {
+    position: relative;
+    height: 35px;
+    text-align: left;
+    top: 5px;
+  }
+
+  .appleBtn i {
+    position: relative;
+    font-size: 35px;
+    margin: 13px;
   }
 }
