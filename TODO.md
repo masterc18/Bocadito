@@ -1,10 +1,14 @@
 #pagina web de bocadito
 
 #Sing up
-[]Hacer la pagina para tables
-[]Hacer paginas para pantallas de escritorio
+[x]Hacer la pagina para tables
+[x]Hacer paginas para pantallas de escritorio
 [x]Agregar iconos a los botones
 [x]Agregar efecto hoover al boton de google
+
+#login
+[]Hacer diseño para tables
+[]Hacer diseño para escritorio
 
 #index
 []Hacer el menu
