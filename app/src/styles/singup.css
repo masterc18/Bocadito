@@ -200,6 +200,7 @@ form {
   .FormContent input {
     width: 180%; /* Por ejemplo, podrías reducir el ancho de los inputs */
     height: 2rem;
+    font-size: 25px;
   }
   .Datas button {
     position: relative;
