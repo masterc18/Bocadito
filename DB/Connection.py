@@ -2,6 +2,8 @@ import mysql.connector
 import os
 
 # Se crea la clase conexion con los atributos
+
+
 class Connection:
     def __init__(self, user, password, database, host):
         self.user = user
@@ -10,7 +12,7 @@ class Connection:
         self.host = host
         self.conn = None
 
-    #Se crea el metodo de obtener la conexion con la base de datos
+    # Se crea el metodo de obtener la conexion con la base de datos
     def GetConnect(self):
         if (self.conn == None):
             self. conn == mysql.connector.connect(
@@ -26,3 +28,9 @@ class Connection:
         if (self.conn != None):
             self.conn.close()
             self.conn = None
+
+
+x = Connection("localhost", "root", "carlosftg1923", "Bocadito")
+conn = x.GetConnect()
+
+
