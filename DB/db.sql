@@ -1,5 +1,7 @@
 -- Se creo la base de datos
 create database Bocadito;
+-- Muestra las bases de datos
+show databases;
 -- Se especifica que base de datos se usa
 use Bocadito;
 -- Se creo la tabla clientes
@@ -16,3 +18,4 @@ CREATE table cliente(
 INSERT INTO cliente (nombre, apellido, direccion, telefono) VALUES ('Carlos', 'Talavera', 'Nandsime', 57968298);
 -- Muestra la tabla
 SELECT * FROM cliente;
+-- DROP DATABASE nombre de la BD (este comando elimina una base de datos)
