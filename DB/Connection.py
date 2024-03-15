@@ -33,4 +33,7 @@ class Connection:
 x = Connection("localhost", "root", "carlosftg1923", "Bocadito")
 conn = x.GetConnect()
 
-
+if conn != None:
+    print("Conexion exitosa")
+else:
+    print("Error de conexion")
