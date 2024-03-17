@@ -1,6 +1,6 @@
 import mysql.connector
 import os
-# forma 1
+# forma 1 de conectar la base de datos
 
 
 class Connection:
@@ -34,8 +34,11 @@ conn = x.getConnect()
 
 if conn != None:
     print("conexion exitosa")
+    print(conn)
 else:
     print("Error de conexion")
+
+
 # Forma 2 de conectar una base de datos
 # conexion = mysql.connector.connect(
 #     user="root",
