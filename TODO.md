@@ -17,3 +17,8 @@
 []Hacer seccion de lo mas vendido
 []Hacer seccion de favoritos
 []Hacer el footer
+
+#BD
+[x]Hacer la base de datos
+[]Hacer la conexion
+[]Crear la tabla de clientes
