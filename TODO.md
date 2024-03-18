@@ -9,6 +9,11 @@
 #login
 []Hacer diseño para tables
 []Hacer diseño para escritorio
+[] ajustar tamaño del titulo
+[] ajustar tamaño de la imagen del pan
+[] ajustar fuente, tamaño y posicion del forgot password
+[] ajustar tamaño y posicion del check box
+[] ajustar fuente, tamaño y posicion de los botones de apple y google
 
 #index
 []Hacer el menu
