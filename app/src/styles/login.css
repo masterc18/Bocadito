@@ -246,7 +246,23 @@ a:hover {
   font-size: 18px;
 }
 
-@media  (600px <= width <= 1280px) {
-  
-  
+@media (750px <= width <= 1280px) {
+  .formContent {
+    width: 100%;
+  }
+
+  .PersonalDatas {
+    position: relative;
+    width: 180%;
+    height: 4rem;
+    font-size: 25px;
+    right: 10rem;
+  }
+
+  .login {
+    position: relative;
+    height: 40px;
+    width: 25rem;
+    font-size: 1.3rem;
+  }
 }
