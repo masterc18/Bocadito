@@ -247,22 +247,71 @@ a:hover {
 }
 
 @media (750px <= width <= 1280px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  #Bread {
+    height: 11rem;
+    width: 8rem;
+  }
   .formContent {
     width: 100%;
   }
 
   .PersonalDatas {
     position: relative;
-    width: 180%;
+    width: 150%;
     height: 4rem;
     font-size: 25px;
     right: 10rem;
   }
 
+  #show {
+    left: 35rem;
+    height: 50px;
+    width: 30px;
+    bottom: 60px;
+  }
+
+  .forgot b {
+    position: relative;
+    font-size: 30px;
+    left: 4rem;
+    bottom: 1rem;
+    width: 15rem;
+  }
+
   .login {
     position: relative;
-    height: 40px;
-    width: 25rem;
+    height: 45px;
+    width: 26rem;
     font-size: 1.3rem;
+  }
+  .choose span {
+    font-size: 20px;
+  }
+
+  .LButtons button {
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
+    margin: 10px;
+    height: 60px;
+    width: 21rem;
+    bottom: 10px;
+    font-size: 20px;
+  }
+  #googleLogo {
+    position: relative;
+    height: 35px;
+    text-align: left;
+    top: 5px;
+  }
+
+  .appleBtn i {
+    position: relative;
+    font-size: 35px;
+    margin: 13px;
   }
 }
