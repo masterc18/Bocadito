@@ -7,13 +7,13 @@
 [x]Agregar efecto hoover al boton de google
 
 #login
-[]Hacer diseño para tables
-[]Hacer diseño para escritorio
-[] ajustar tamaño del titulo
-[] ajustar tamaño de la imagen del pan
-[] ajustar fuente, tamaño y posicion del forgot password
-[] ajustar tamaño y posicion del check box
-[] ajustar fuente, tamaño y posicion de los botones de apple y google
+[x]Hacer diseño para tables
+[x]Hacer diseño para escritorio
+[x] ajustar tamaño del titulo
+[x] ajustar tamaño de la imagen del pan
+[x] ajustar fuente, tamaño y posicion del forgot password
+[x] ajustar tamaño y posicion del check box
+[x] ajustar fuente, tamaño y posicion de los botones de apple y google
 
 #index
 []Hacer el menu
@@ -25,5 +25,5 @@
 
 #BD
 [x]Hacer la base de datos
-[]Hacer la conexion
+[x]Hacer la conexion
 []Crear la tabla de clientes
