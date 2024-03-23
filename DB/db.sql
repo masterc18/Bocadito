@@ -7,6 +7,7 @@ show databases;
 -- Creamos la tabla de clientes
 create table clientes(
 	id int not null auto_increment,
+    cedula varchar(9) unique not null,
     primerNombre varchar(50),
     segundoNombre varchar(50),
     primerApellido varchar(50),
